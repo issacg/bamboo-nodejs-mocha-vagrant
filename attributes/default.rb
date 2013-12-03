@@ -6,7 +6,7 @@ default[:bamboo][:home] = '/home/bamboo';
 # Save install_base seperately, so we can create the base dir with a directory block, while not creating the full dir (which will be a symlink)
 default[:bamboo][:install] = '/usr/local/atlassian/bamboo';
 
-default[:bamboo][:nodejsplugin] = 'https://bitbucket.org/issacg/bamboo-nodejs-plugin/downloads/bamboo-nodejs-plugin-1.3.1beta-mocha.jar';
+default[:bamboo][:nodejsplugin] = 'https://bitbucket.org/issacg/bamboo-nodejs-plugin/downloads/bamboo-nodejs-plugin-1.3.2beta-mocha.jar';
 
 default[:bamboo][:database][:type] = 'mysql';
 default[:bamboo][:database][:user] = 'bamboo';
