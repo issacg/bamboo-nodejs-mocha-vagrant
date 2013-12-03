@@ -22,6 +22,11 @@ include_recipe "java"
 include_recipe "nodejs"
 include_recipe "nodejs::npm"
 
+# Bamboo Node.js Plugin won't currently autodetect /usr/local/bin/node without symlinking it to /usr/bin/node
+link "/usr/bin/node" do
+  to "/usr/local/bin/node"
+end
+
 group node[:bamboo][:group]
 user node[:bamboo][:user] do
   group node[:bamboo][:group]
