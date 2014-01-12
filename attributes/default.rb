@@ -1,5 +1,4 @@
-default[:bamboo][:version] = '5.2';
-default[:bamboo][:checksum] = '26608b4cfcf85cac978e7e9afa328e8855c34130ac62e82a2f67b4d2d9da5aeb';
+default[:bamboo][:version] = '5.3';
 default[:bamboo][:user] = 'bamboo';
 default[:bamboo][:group] = 'bamboo';
 default[:bamboo][:home] = '/home/bamboo';
